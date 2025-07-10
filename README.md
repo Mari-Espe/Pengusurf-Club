@@ -11,3 +11,6 @@ El proyecto de robot autobalancín Pengusurf Club puede dividirse en las siguien
 Adicionalmente se adjuntan en cada parte recomendaciones de mejora para la implementación del proyecto.
 
 Debido a retrasos con el circuito por dificultades inesperadas no alcanzó el tiempo para la implementación del código, por lo cual esa parte queda pendiente para el futuro.
+
+![carta](https://github.com/user-attachments/assets/6cab4db9-bf3f-4e98-ac7b-3d1ce4df7c65)
+
