@@ -3,10 +3,10 @@ Repositorio del proyecto robot balancín, para el ramo Mecatrónica (ME4250)
 
 El proyecto de robot autobalancín Pengusurf Club puede dividirse en las siguientes partes:
 
-1) Piezas estructurales impresas en 3D con PLA
-2) Piezas estéticas impresas en 3D con PLA
-4) Circuito impreso en placa de cobre (PCB) y montaje de componentes
-5) Código PID
+1) Circuito impreso en placa de cobre (PCB) y montaje de componentes
+2) Piezas estructurales impresas en 3D con PLA
+3) Piezas estéticas impresas en 3D con PLA
+4) Código PID
 
 Adicionalmente se adjuntan en cada parte recomendaciones de mejora para la implementación del proyecto.
 
