@@ -1,0 +1,32 @@
+Los componentes electrónicos mínimos para el funcionamiento de un robot autobalancín son: un microcontrolador, un sensor para determinar la posición del robot, motores para ambas ruedas, driver para controlar las ruedas coordinadamente y una fuente de alimentación. Adicionalmente a estos componentes se agregaron un buzzer (zumbador), un interruptor, condensadores y una resistencia.
+
+Los específicos utilizados y sus cantidades fueron las siguientes:
+
+  Componentes Mínimos
+  1) 1x Arduino Nano
+  2) 1x Acelerómetro-Giroscópio GY-521 / MPU6050
+  3) 2x Motores paso a paso NEMA 17
+  4) 2x Drivers para motor paso a paso DRV8825
+  5) 3x Baterías recargables litio-ion 3.7 V 4800 mAh c/u
+
+  Componentes Adicionales
+  6) 2x Condensadores 100uF, 50V
+  7) 1x Buzzer piezoeléctrico
+  8) 1x Resistencia 50 ohms
+
+Los condenadores se agregaron para seguir la recomendación de las especificaciones técnicas de conexión de los drivers GY-521. El buzzer se agregó para tener un indicador sonoro cuando el robot se encienda y cuando caiga a una posición de la cual no se pueda recuperar. La resistencia fue para ajustar la corriente recibida al buzzer.
+Con los componentes mencionados se realizó el siguiente diagrama de conexiones:
+
+*diagrama conexiones*
+
+Nota: En este diagrama las conexiones de SLA y SCL del GY-521 están incorrectas pues deberían conectarse a A y A respectivamente, los pines con I2C incorporado en arduino Nano. Este error fue arreglado en el proyecto con cableado posterior.
+
+Se logró realizar todas las conexiones en una sola cara de la placa, acomodando los componentes como se muestra en la figura:
+*imagen PCB*
+
+Nota: Al tener todos los componentes en una cara se podría haber usado una placa de solo un lado (agregando una conexión de las tierras por cable), sin embargo, se utilizó una placa con doble cara lo cual requirió considerablemente más tiempo al necesitar aislar los pines sobresalientes del otro extremo. Para asegurar la alineación del otro lado de la placa al voltearla, se deben hacer perforaciones de fijación en la placa y en la base de la zona de corte, además de hacer la placa de forma simétrica con respecto al eje de giro de volteo. 
+
+*imagen placa de cobre cortada?*
+*imagen placa de cobre con componentes montados*
+
+*imagen circuito real*
