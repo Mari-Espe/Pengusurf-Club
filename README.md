@@ -1,5 +1,5 @@
 # Pengusurf-Club
-Repositorio del proyecto robot balancín, para el ramo Mecatrónica (ME4250)
+Repositorio del proyecto robot balancín, para el ramo Mecatrónica (ME4250) otoño 2025.
 
 El proyecto de robot autobalancín Pengusurf Club puede dividirse en las siguientes partes:
 
@@ -12,5 +12,5 @@ Adicionalmente se adjuntan en cada parte recomendaciones de mejora para la imple
 
 Debido a retrasos con el circuito por dificultades inesperadas no alcanzó el tiempo para la implementación del código, por lo cual esa parte queda pendiente para el futuro.
 
-![carta](https://github.com/user-attachments/assets/6cab4db9-bf3f-4e98-ac7b-3d1ce4df7c65)
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e701415c-e9a5-4b56-874d-1a120d922707" width=50% height=50% alt="^^ Foto del robot finalizado">
