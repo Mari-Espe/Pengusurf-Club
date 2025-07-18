@@ -12,6 +12,7 @@ Adicionalmente se adjuntan en cada parte recomendaciones de mejora para la imple
 
 Debido a retrasos con el circuito por dificultades inesperadas no alcanzó el tiempo para la implementación del código, por lo cual esa parte queda pendiente para el futuro.
 
-![pengu bot](https://github.com/user-attachments/assets/2a263f76-5370-43f5-8eb9-35cfc85a494a)
+<p align="center">
+<img src ="https://github.com/user-attachments/assets/2a263f76-5370-43f5-8eb9-35cfc85a494a" width= 50%>
 
 
